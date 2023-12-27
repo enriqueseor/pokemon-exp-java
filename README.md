@@ -25,7 +25,7 @@ There are two versions of the program available:
 - The console is going to ask you to input a Pokemon level number and depending 
 of the amount of experience your Pokemon has his growth type is one or the other.
 
-![CONSOLE-VERSION](images/CONSOLE-VERSION.png)
+![CONSOLE-VERSION](images/console-version.png)
 
 ### Graphic Version with JFrame
 - In this case you have to input the Pokemon level number inside de text box
