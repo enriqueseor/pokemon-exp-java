@@ -56,9 +56,10 @@ public class PokemonExperienceJFrame extends JFrame {
 
     private void erratic(int n, StringBuilder result) {
         int x = 0;
-        if (n > 0 && n <= 50) {
-            x = (int) (Math.pow(n, 3)) * (100 - n) / 50;
-        }
+        if (n > 0 && n <= 50) { x = (int) (Math.pow (n,3))*(100-n)/50; }
+        if (n >= 51 && n <= 68) { x = (int) (Math.pow (n,3))*(150-n)/100; }
+        if (n >= 69 && n <= 98) { x = (int) (Math.pow (n,3))*(155-n)/100; }
+        if (n >= 99 && n <= 100) { x = (int) (Math.pow (n,3))*(160-n)/100; }
         result.append("Erratic      ").append(x).append("\n");
     }
 
@@ -84,15 +85,9 @@ public class PokemonExperienceJFrame extends JFrame {
 
     private void fluctuating(int n, StringBuilder result) {
         int x = 0;
-        if (n > 0 && n <= 15) {
-            x = (int) (Math.pow(n, 3)) * (24 + (n + 1) / 3) / 50;
-        }
-        if (n >= 16 && n <= 35) {
-            x = (int) (Math.pow(n, 3)) * (14 + n) / 50;
-        }
-        if (n >= 36 && n <= 100) {
-            x = (int) (Math.pow(n, 3)) * (32 + (n / 2)) / 50;
-        }
+        if (n > 0 && n <= 15) {x = (int) (Math.pow(n, 3)) * (24 + (n + 1) / 3) / 50;}
+        if (n >= 16 && n <= 35) {x = (int) (Math.pow(n, 3)) * (14 + n) / 50;}
+        if (n >= 36 && n <= 100) {x = (int) (Math.pow(n, 3)) * (32 + (n / 2)) / 50;}
         result.append("Fluctuating  ").append(x).append("\n");
     }
 

@@ -25,14 +25,14 @@ There are two versions of the program available:
 - The console is going to ask you to input a Pokemon level number and depending 
 of the amount of experience your Pokemon has his growth type is one or the other.
 
-![CONSOLE-VERSION](images/console-version.png)
+![CONSOLE-VERSION](resources/console-version.png)
 
 ### Graphic Version with JFrame
 - In this case you have to input the Pokemon level number inside de text box
 under the Pokemon level tag. Then you have to press the calculate button
 and the results are going to be displayed under.
 
-![GRAPHIC-VERSION](images/graphic-version.png)
+![GRAPHIC-VERSION](resources/graphic-version.png)
 
 ## Resources
 To learn more about Pokémon experience growth, you can refer to [Bulbapedia's page on Experience](https://bulbapedia.bulbagarden.net/wiki/Experience).
